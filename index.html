@@ -1,0 +1,114 @@
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Site Exemplo</title>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+        <link rel="preload" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" as="style">
+    </head>
+    
+<body>
+    <div class="separa">
+        <div>  
+            <header>
+                <div>
+                    <h1>Estrela</h1>
+                    
+                    <div class="verde-star">
+                        <h1>Verde</h1>
+                        <h1 class="star">★</h1>
+                    </div>
+                </div>
+                
+                <nav>
+                    <ul>
+                        <li><a a href="#" target="_blank">Home</a></li>
+                        <li><a href="#" id="sobre" onclick="toggleMenu('sobre-menu')">Sobre</a></li>
+                        <li><a href="#" id="contato" onclick="toggleMenu('contato-menu')">Contato</a></li>
+                    </ul>
+                </nav>
+                <div class="social-icons">
+                    <a href="#" target="_blank" class="social-icon"><i class="fab fa-instagram"></i></a>
+                    <a href="#" target="_blank" class="social-icon"><i class="fab fa-twitter"></i></a>
+                    <a href="#" target="_blank" class="social-icon"><i class="fab fa-facebook"></i></a>
+                </div>  
+                
+            </header>
+        
+            <!-- Menu oculto para "Sobre" e "Contato" -->
+            <div id="sobre-menu" class="hidden-menu">
+           
+                <h1>Bem-vindo à Estrela Verde!</h1>
+           
+                <p><strong>Seu destino para os pinheiros mais especiais e encantadores para o Natal e outras festas.</strong> Aqui, nossa missão é trazer a magia das celebrações para sua casa, com árvores de Natal frescas, de qualidade e cuidadosamente selecionadas.</p>
+            <br>
+                <h2>Quem somos:</h2>
+                <p>Somos apaixonados por transformar momentos únicos em experiências inesquecíveis. A <strong>Estrela Verde</strong> oferece pinheiros naturais e de qualidade para deixar suas festas ainda mais brilhantes, cheias de vida e alegria.</p>
+            <br>
+                <h2>O que fazemos:</h2>
+                <p>Oferecemos uma seleção premium de pinheiros, prontos para decorar sua casa ou evento. Atendemos com carinho e dedicação para que você tenha a melhor experiência em cada celebração.</p>
+            <br>
+                <h2>Nosso compromisso:</h2>
+                <p><strong>Qualidade, frescor e tradição.</strong> Afinal, cada festa merece um toque especial.</p>
+            <br>
+            </div>
+            <div id="contato-menu" class="hidden-menu">
+                <ul>
+                    <li><strong>Telefone:</strong> (11) 4002-8922</li>
+                    <li><strong>WhatsApp:</strong> (11) 99999-8888</li>
+                    <li><strong>E-mail:</strong> <a href="mailto:contato@estrelaverde.com.br">contato@estrelaverde.com.br</a></li>
+                    <li><strong>Endereço:</strong> Rua das Árvores, 123 - Jardim Verde, São Paulo - SP, 01234-567</li>
+                    <li><strong>Instagram:</strong> <a href="https://www.instagram.com/estrela.verde" target="_blank">@estrela.verde</a></li>
+                    <li><strong>Facebook:</strong> <a href="https://www.facebook.com/estrela.verde" target="_blank">facebook.com/estrela.verde</a></li>
+                    <li><strong>Site:</strong> <a href="https://www.estrelaverde.com.br" target="_blank">www.estrelaverde.com.br</a></li>
+                </ul>
+            </div>
+        
+            <!-- Linha Separadora -->
+            <div class="separator"></div>  <!-- A linha separadora aqui -->
+        
+            <div class="separator"></div>
+                
+            <main>
+                <section>
+                    <h2>Na Estrela Verde, o Natal brilha mais forte com a magia dos nossos pinheiros</h2>
+                    <p>Na Estrela Verde, trazemos para você a verdadeira essência do Natal com nossos pinheiros especiais, selecionados com carinho para transformar sua casa em um lar acolhedor e repleto de alegria. Cada árvore é cuidadosamente escolhida para garantir beleza, frescor e um toque encantador à sua celebração. Seja para o Natal ou outras festas, nossos pinheiros são o brilho que faltava para sua decoração. Faça da Estrela Verde o ponto de partida para momentos inesquecíveis em cada celebração!</p>
+                
+                    <!-- Carrossel de Imagens -->
+                    <div id="carousel" class="carousel">
+                        <img class="carousel-item" src="1.jpg" alt="cortando os galhos">
+                        <img class="carousel-item" src="2.jpg" alt="gardando as plantas">
+                        <img class="carousel-item" src="pinheiros.jpg" alt="varios pinheiros nos vasos">
+                        <img class="carousel-item" src="shutterstock_675538726.jpg" alt="parte de cima de pinheiros">
+                    </div>
+                </section>        
+        
+            </main>
+        
+        </div>
+
+        <aside>
+            <h3>Pinheiro Únicos</h3>
+            <ul>
+                <li><a a href="#" target="_blank">Pinheiro de Natal (Pinus silvestris)</a></li>
+                <br>
+                <li><a a href="#" target="_blank">Pinheiro Noble (Abies procera)</a></li>
+                <br>
+                <li><a a href="#" target="_blank">Pinheiro Azul (Picea pungens)</a></li>
+            </ul>
+        </aside>
+
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Todos os direitos reservados a Felipe Roufman.</p>
+    </footer>
+
+
+    <script src="main.js"></script>
+
+</body>
+</html>
