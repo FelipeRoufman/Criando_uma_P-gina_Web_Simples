@@ -1,11 +1,9 @@
-/* Estilos gerais */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Corpo da página */
 body {
     font-family: 'Roboto', Arial, sans-serif;
     background: linear-gradient(to bottom, #3d5540, #1f332f);
@@ -13,7 +11,6 @@ body {
     min-height: 100vh;
 }
 
-/* Estilos do Header */
 header {
     background-color: transparent;
     color: white;
@@ -26,33 +23,32 @@ header {
 }
 
 #sobre-menu {
-    max-width: 800px; /* Define uma largura máxima para a div */
-    margin-left: 0; /* Garante que a div comece no canto esquerdo */
-    margin-right: auto; /* Ajusta para que o conteúdo se alinhe à esquerda */
-    padding: 20px; /* Adiciona algum espaçamento interno */
-    text-align: left; /* Garante que o texto seja alinhado à esquerda */
+    max-width: 800px; 
+    margin-left: 0; 
+    margin-right: auto; 
+    padding: 20px; 
+    text-align: left; 
 }
 
 #sobre-menu h1, #sobre-menu h2, #sobre-menu p {
-    margin: 0 0 15px 0; /* Remove as margens superiores e inferiores, mas adiciona margem entre os elementos */
+    margin: 0 0 15px 0; 
 }
 
 #sobre-menu h1 {
-    font-size: 2rem; /* Tamanho maior para o título principal */
-    font-weight: bold; /* Deixa o título em negrito */
+    font-size: 2rem; 
+    font-weight: bold; 
 }
 
 #sobre-menu h2 {
-    font-size: 1.5rem; /* Tamanho um pouco menor para os subtítulos */
-    color: #ffffff; /* Cor verde para os subtítulos */
+    font-size: 1.5rem; 
+    color: #ffffff; 
     font-weight: bold;
 }
 
 #sobre-menu p {
-    font-size: 1rem; /* Tamanho padrão para os parágrafos */
-    line-height: 1.6; /* Ajusta o espaçamento entre linhas */
+    font-size: 1rem;
+    line-height: 1.6; 
 }
-
 
 header h1 {
     margin: 0;
@@ -117,7 +113,6 @@ header .verde-star .star:hover {
     color: yellow;
 }
 
-/* Estilos para a linha separadora */
 .separator {
     width: 100%;
     height: 4px;
@@ -128,14 +123,12 @@ header .verde-star .star:hover {
     transition: transform 0.5s ease;
 }
 
-/* Alterar o seletor para o ~ (irmãos seguintes) em vez de + */
 header:hover ~ .separator {
     transform: scaleX(1);
 }
 
-/* Estilos para os ícones sociais no header */
 .social-icons {
-    z-index: 1; /* Garantir que o aside fique acima de outros conteúdos */
+    z-index: 1; 
     display: flex;
     gap: 15px;
 }
@@ -150,7 +143,6 @@ header:hover ~ .separator {
     color: #ffeb3b;
 }
 
-/* Estilos do Main (Layout com duas colunas) */
 main {
     display: flex;
     justify-content: space-between;
@@ -166,7 +158,6 @@ main {
     }
 }
 
-/* Estilos da Section */
 section {
     width: 70%;
 }
@@ -177,11 +168,10 @@ section img {
     margin-top: 20px;
 }
 
-/* Estilos para o carrossel */
 .carousel {
     position: relative;
     width: 100%;
-    height: 300px;  /* Ajuste a altura conforme necessário */
+    height: 300px; 
     overflow: hidden;
 }
 
@@ -207,28 +197,25 @@ section img {
     left: -100%;
 }
 
-
-/* Estilos para o Aside */
 aside {
-    position: fixed; /* Fixar à direita da tela */
+    position: fixed;
     top: 0;
-    right: 0;  /* Coloca o aside à direita */
-    width: 300px; /* Largura fixa para o aside */
-    height: 100vh; /* Altura total da tela */
-    background-color: rgba(224, 224, 224, 0.236); /* Cor de fundo com transparência */
+    right: 0; 
+    width: 300px;
+    height: 100vh; 
+    background-color: rgba(224, 224, 224, 0.236);
     padding: 20px;
     border-radius: 5px;
-    display: flex; /* Usar flexbox para centralizar o conteúdo */
-    flex-direction: column; /* Colocar os itens em coluna */
-    justify-content: center; /* Centralizar verticalmente */
-    z-index: 0; /* Garantir que o aside fique acima de outros conteúdos */
-    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.2); /* Adicionar sombra para destacar */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    z-index: 0; 
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.2); 
 }
 
-/* Estilos para links dentro do aside */
 aside h3 {
     margin-bottom: 10px;
-    text-align: center; /* Garantir que o título do aside fique centralizado */
+    text-align: center; 
 }
 
 aside ul {
@@ -238,7 +225,7 @@ aside ul {
 
 aside ul li {
     margin-bottom: 10px;
-    text-align: center; /* Centralizar o texto dos links */
+    text-align: center; 
 }
 
 aside ul li a {
@@ -252,13 +239,10 @@ aside ul li a:hover {
     color: #4CAF50;
 }
 
-/* Garantir que o aside não sobreponha conteúdo importante na tela */
 main {
-    margin-right: 300px; /* Espaço para o aside fixo */
+    margin-right: 300px;
 }
 
-
-/* Estilos do Footer */
 footer {
     background-color: #333;
     color: white;
@@ -269,7 +253,6 @@ footer {
     bottom: 0;
 }
 
-/* Estilos do menu oculto */
 .hidden-menu {
     display: none;
     padding: 20px;
